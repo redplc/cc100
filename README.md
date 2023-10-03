@@ -65,7 +65,7 @@
 - Enter user `root` and password `wago`
 - Enter new password (don't forget password).
 - Check if docker runs with enter `docker -v`
-- Edit docker confuguration file with enter `nano /etc/docker/daemon.json`
+- Edit docker configuration file with enter `nano /etc/docker/daemon.json`
 - Change `"data-root":"/home/docker"` to `"data-root":"/media/sd/docker"`
 - Exit editor with Ctl-X and save file.
 - Enter in PuTTY for stop docker `/etc/init.d/dockerd stop`
@@ -75,20 +75,21 @@
 ### Installing Node-Red on Docker
 - Start PuTTY with ip of CC100 (Connection type: `SSH`)
 - Enter user `root` and `changed password`
-- Enter `docker run -d \`
+- Enter `docker run -it \`
 - `--name node-red \`
 - `--privileged=true \`
 - `--user=root \`
 - `--net=host \`
 - `-v node_red_user_data:/data \`
 - `nodered/node-red`
-- Wait until docker installs Node-Red
-- check node-red image with enter `docker images`
-- Node-Red runs as deamon in background
+- Wait until docker installs and start Node-Red
+- Open second session with PuTTY
+- Check node-red image with enter `docker images`
+- Check running docker images with enter `docker ps`
 - You can attach to node-red deamon with enter `docker attach node-red`
 - For deattach node-red deamon press `Ctrl+P` and `Ctrl-Q`
 - Start Node-Red UI with enter on Webbrowswer `[ip-of-cc100]:1880`
-- To Start the Node-Red deamon enter `docker star node-red`
+- To Start the Node-Red deamon enter `docker start node-red`
 - To Stop the Node-Red deamon enter `docker stop node-red`
-
+- Node-Red data is on folder `/media/sd/docker/volumes/node_red_user_data/_data`
 
