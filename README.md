@@ -13,11 +13,11 @@
 - 2 x Ethernet Port
 - RS485 Port
 
-## Module Nodes for CC100
+## Nodes for CC100
 
 |Module-Node|Function|
 |---|---|
-|[@redplc/node-red-wago-cc100-io](https://www.npmjs.com/package/@redplc/node-red-wago-cc100-io)|Node-RED nodes for Wago CC100 using with redPlc nodes.|
+|[@redplc/node-red-wago-cc100-io](https://www.npmjs.com/package/@redplc/node-red-wago-cc100-io)|Node-RED nodes for Wago CC100 I/O using with redPlc nodes.|
 
 ## How To's
 ### [Update Firmware](UpdateFirmware.md)
