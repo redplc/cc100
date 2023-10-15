@@ -4,6 +4,8 @@
 
 ### CC100 firmware image version: 04.03.03(25)
 
+- Node.js and Node-Red is installed on the CC100 Flash.
+- Check the size of the flash before installing.
 - Download from [Node.js](https://nodejs.org/de/download) LTS tar file for Linux Binaries ARMv7 (**node-vxx.xx.xx-linux-armv7l.tar.xz**)
 - As example I use **node-v18.18.2-linux-armv7l.tar.xz** and ip **192.168.1.47**
 - Change for your tar file name and CC100 ip.
