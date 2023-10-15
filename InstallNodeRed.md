@@ -1,4 +1,4 @@
-## Install Node-Red on CC100
+## Install Node-Red on CC100 Flash Memory
 
 ### [Home](README.md)
 
