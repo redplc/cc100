@@ -23,4 +23,5 @@
 ### [Update Firmware](UpdateFirmware.md)
 ### [Adjust Settings](AdjustSettings.md)
 ### [Install Node-Red on Docker](InstallNodeRedDocker.md)
+### [Install Node-Red on CC100](InstallNodeRed.md) (not finished)
 
