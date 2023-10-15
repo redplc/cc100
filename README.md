@@ -1,6 +1,6 @@
-# Notes about Wago Compact Controller 
+# Notes about Wago Compact Controller CC100
 
-## [Wago Compact Controller](https://www.wago.com/global/plcs-%E2%80%93-controllers/compact-controller-100/p/751-9301)
+## [Wago Compact Controller CC100](https://www.wago.com/global/plcs-%E2%80%93-controllers/compact-controller-100/p/751-9301)
 
 ![image info](images/cc100.png)
 
@@ -19,7 +19,7 @@
 |---|---|
 |[@redplc/node-red-wago-cc100-io](https://www.npmjs.com/package/@redplc/node-red-wago-cc100-io)|Node-RED nodes for Wago CC100 I/O using with redPlc nodes.|
 
-## How To's
+## CC100 How To's
 ### [Update Firmware](UpdateFirmware.md)
 ### [Adjust Settings](AdjustSettings.md)
 ### [Install Node-Red on Docker](InstallNodeRedDocker.md)
