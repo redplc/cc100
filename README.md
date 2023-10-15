@@ -22,5 +22,5 @@
 ## How To's
 ### [Update Firmware](UpdateFirmware.md)
 ### [Adjust Settings](AdjustSettings.md)
-### [Install Node-Red](InstallNodeRed.md)
+### [Install Node-Red on Docker](InstallNodeRedDocker.md)
 
