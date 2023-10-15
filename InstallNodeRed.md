@@ -62,7 +62,7 @@ cp usr/lib/arm-linux-gnueabihf/libatomic.so.1 /usr/lib
 ### Clean up
 ```
 cd /home/node
-rm libatomic1_13.2.0-4_armhf.deb / 
+rm libatomic1_13.2.0-4_armhf.deb
 rm node-v18.18.2-linux-armv7l.tar.xz 
 ```
 ### Test Installation:
