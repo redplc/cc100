@@ -19,9 +19,14 @@
 |---|---|
 |[@redplc/node-red-wago-cc100-io](https://www.npmjs.com/package/@redplc/node-red-wago-cc100-io)|Node-RED nodes for Wago CC100 I/O using with redPlc nodes.|
 
+## Node-Red Examples for CC100
+[Test CC100 Hardware (test_hardware.json)](https://github.com/redplc/cc100/blob/main/examples/test_hardware.json)
+
 ## CC100 How To's
 ### [Update Firmware](UpdateFirmware.md)
 ### [Adjust Settings](AdjustSettings.md)
+### [Create and Mount SD Card](CreateSDCard.md)
 ### [Install Node-Red on Docker](InstallNodeRedDocker.md)
-### [Install Node-Red on CC100 Flash Memory](InstallNodeRed.md)
+### [Install Node-Red on Flash Memory](InstallNodeRed.md)
+### [Install Node-Red on SD Card](InstallNodeRedSD.md)
 

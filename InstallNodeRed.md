@@ -1,4 +1,4 @@
-## Install Node-Red on CC100 Flash Memory
+## Install Node-Red on Flash Memory
 
 ### [Home](README.md)
 
@@ -83,7 +83,7 @@ press `Ctrl+C`
 
 ### Change Storage Folder for Node-Red to SD Card
 - Create SD card media for using for Node-Red.
-- [Look here how](InstallNodeRedDocker.md)
+- [Look here how](CreateSDCard.md)
 ```
 mkdir /media/sd/node
 sudo nano /root/.node-red/settings.js

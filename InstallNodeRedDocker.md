@@ -4,23 +4,12 @@
 
 ### CC100 firmware image version: 04.03.03(25)
 
-### Create SD card media for using for docker
-- Use a suitable SD card (e.g Wago, Industrial or High Endurance).
-- Make sure the SD card does not contain a boot image.
-- Turn power of CC100 off and insert SD card.
-- Turn power of CC100 on and wait until all leds turns off.
-- Open Webbrowswer with ip of CC100.
-- Enter Username ***admin*** and Password ***changed password***
-- Select Tab ***Configuration*** -> ***Mass Storage*** -> ***Create new Filesystem on Memory Card***
-- ***Filesystem type*** must select Ext4.
-- Enter in field ***Label*** `sd`
-- Press button ***Start*** -> ***Continue***.
-- The SD Card is now mounted to `/media/sd/`
-
 ### Start Docker
 - Select Tab ***Configuration*** -> ***Docker***.
 - Check ***Service Enabled***
 - Press button ***Submit***
+
+### [Create and Mount SD Card](CreateSDCard.md)
 
 ### Assign SD card for Docker
 - The SD card must be inserted
