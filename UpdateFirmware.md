@@ -3,7 +3,7 @@
 
 ### [Home](README.md)
 
-### CC100 firmware image version: 04.03.03(25)
+### CC100 firmware image version: >= 04.03.03(25)
 
 - Download last [CC100 Firmware](https://downloadcenter.wago.com/software).
 - Download Create Bootable SD Tool e.g. [Rufus Portable](https://rufus.ie/en/).

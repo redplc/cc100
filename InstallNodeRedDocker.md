@@ -2,7 +2,7 @@
 
 ### [Home](README.md)
 
-### CC100 firmware image version: 04.03.03(25)
+### CC100 firmware image version: >= 04.03.03(25)
 
 ### Start Docker
 - Select Tab ***Configuration*** -> ***Docker***.

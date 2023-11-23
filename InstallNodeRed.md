@@ -2,16 +2,17 @@
 
 ### [Home](README.md)
 
-### CC100 firmware image version: 04.03.03(25)
+### CC100 firmware image version: >= 04.03.03(25)
 [Inspired from Thorgrim Jansrud](https://github.com/thorgrimjansrud/node.js-on-wago-device).
 
 - ! Node.js and Node-Red are installed on the CC100 Flash.
 - Check the size of the flash before installing.
-- Download from [Node.js](https://nodejs.org/de/download) LTS tar file for Linux Binaries ARMv7 (**node-vxx.xx.xx-linux-armv7l.tar.xz**)
-- Download [libatomic](http://ftp.de.debian.org/debian/pool/main/g/gcc-13/libatomic1_13.2.0-4_armhf.deb)
+- Download from [Node.js](https://nodejs.org/en/download) **LTS** tar file for Linux Binaries ARMv7 (**node-vxx.xx.xx-linux-armv7l.tar.xz**)
+- Download [libatomic](http://ftp.de.debian.org/debian/pool/main/g/gcc-13/)
+file **libatomic1_13.x.x-x_armhf.deb**
 
 - In example I use **node-v18.18.2-linux-armv7l.tar.xz** and ip **192.168.1.47**
-- Change file name and ip for your CC100.
+- Change **node.js** file name and ip for your CC100.
 - Download and install [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 - PuTTY must in Windows Path.
 - Start PuTTY with ip of CC100 (Connection type: `SSH`)
@@ -57,6 +58,7 @@ export PATH=/home/node/node-$VERSION-$DISTRO/bin:$PATH
 ```
 cd /home/node
 ar x libatomic1_13.2.0-4_armhf.deb
+tar xvf data.tar.xz
 cp usr/lib/arm-linux-gnueabihf/libatomic.so.1 /usr/lib
 ```
 ### Clean up
