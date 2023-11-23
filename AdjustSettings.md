@@ -2,7 +2,7 @@
 
 ### [Home](README.md)
 
-### CC100 firmware image version: 04.03.03(25)
+### CC100 firmware image version: >= 04.03.03(25)
 
 ### Open Web-Based-Managment of CC100
 - Look on your router website for a device with name CC100-xxxxx

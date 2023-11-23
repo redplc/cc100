@@ -37,6 +37,7 @@ pscp libatomic1_13.2.0-4_armhf.deb root@192.168.1.47:/home/node
 ```
 ### Open PuTTY and extract node.js files:
 ```
+cd /home/node
 tar -xJvf node-v18.18.2-linux-armv7l.tar.xz -C /home/node
 ```
 ### Edit profile file:
